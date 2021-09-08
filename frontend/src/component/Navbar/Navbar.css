@@ -1,0 +1,73 @@
+.navbar {
+    color: white;
+    display: flex;
+    background-color: #65d8f83d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #47a6c06c;
+    z-index: 10000;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.navbar-active {
+  color: rgb(0, 0, 0);
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+}
+.navbar-active a {
+  color: #000;
+}
+  
+.nav {
+  width: 30%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+  
+a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
+}
+
+form {
+  width: 35%;
+}
+
+input[type=text] {
+  float: right;
+  width: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+  
+input[type=text]:focus {
+  width: 100%;
+}
+
+#login {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  padding: 11px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;   
+}

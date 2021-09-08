@@ -1,0 +1,36 @@
+.footer {
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-tag-footer {
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.tag-footer li {
+    list-style: none;
+}
+
+.tag-footer ul {
+    text-align: left;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.atm-icon{
+    width: 250px;
+}
+
+.atm-icon img {
+   margin-right: 10px;
+}
+
+img {
+    margin: 10px;
+}

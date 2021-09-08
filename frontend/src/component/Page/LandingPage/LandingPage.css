@@ -1,0 +1,54 @@
+.background {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 200vh;
+    background-image: url("http://localhost:3000/image/LandingPage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+}
+
+.section1 {
+    height: 80vh;
+}
+
+
+.section1 p:first-child{
+    font-size: 3rem;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    margin-top: 200px;
+}
+
+.section1 p:nth-child(2) {
+    font-size: 2rem;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: white;
+}
+
+Button {
+    display: block;
+    margin: 15px auto;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    padding: 3rem 0;
+    justify-content: space-around;
+    background-color: #ffffff75;
+}
+
+.section2 a {
+    color: black;
+    text-decoration: underline;
+}
+
+.tag-info {
+    width: 300px;
+    text-align: left;
+    border: 1px solid #fffffff3;
+    padding: 3px;
+}
